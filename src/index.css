@@ -1,0 +1,29 @@
+.box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img {
+  margin: 50px;
+  border: 1px solid #ccc;
+  height: 200px;
+  width: 180px;
+  border-radius: 50%;
+
+}
+
+.name{
+  color:skyblue;
+}
+
+.border {
+  display: block;
+  border: 2px solid #777;
+  color: orange;
+  border-radius: 70;
+}
+
+.background{
+  height: 100%;
+background-image: linear-gradient(to bottom,gray 2%,white 1%,pink 50%);
+}
